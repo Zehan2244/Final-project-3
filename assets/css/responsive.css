@@ -1,0 +1,304 @@
+@media (320px <= width <= 575px) {
+    #beautyCream .beautyCntC {
+      padding-top: 20px;
+      padding-left: 0px;
+    }
+  }
+  @media (576px <= width <= 767px) {
+    #beautyCream .beautyCntC {
+      padding-top: 20px;
+      padding-left: 0px;
+    }
+  }
+  /* new arrival */
+  @media (320px <= width <= 575px) {
+    #arrival .arrivBox .arrivCnt .arriveIcon {
+      left: 400px;
+    }
+  }
+  @media (576px <= width <= 767px) {
+    #arrival .arrivBox .arrivCnt .arriveIcon {
+      left: 200px;
+    }
+  }
+  @media (768px <= width <= 991px) {
+    #arrival .arrivBox .arrivCnt .arriveIcon {
+      left: 175px;
+    }
+  }
+  @media (992px <= width <= 1199px) {
+    #arrival .arrivBox .arrivCnt .arriveIcon {
+      left: 180px;
+    }
+  }
+  @media (1200px <= width <= 1399px) {
+    #arrival .arrivBox .arrivCnt .arriveIcon {
+      left: 220px;
+    }
+  }
+
+  @media (320px <= width <= 575px) {
+    #arrival .beautyArrow {
+      display: none;
+    }
+  }
+  @media (576px <= width <= 767px) {
+    #arrival .beautyArrow {
+      display: none;
+    }
+  }
+  /* new arrival ends */
+
+  /* best seller */
+
+  @media (320px <= width <= 575px) {
+    #bestSeller .bestBox .bestCnt .arriveIcon {
+      left: 288px;
+    }
+  }
+  @media (576px <= width <= 767px) {
+    #bestSeller .bestBox .bestCnt .arriveIcon {
+      left: 465px;
+    }
+  }
+  @media (768px <= width <= 991px) {
+    #bestSeller .bestBox .bestCnt .arriveIcon {
+      left: 290px;
+    }
+  }
+  @media (992px <= width <= 1199px) {
+    #bestSeller .bestBox .bestCnt .arriveIcon {
+      left: 180px;
+    }
+  }
+  @media (1200px <= width <= 1399px) {
+    #bestSeller .bestBox .bestCnt .arriveIcon {
+      left: 220px;
+    }
+  }
+
+  /* best seller ends */
+  /* deal starts  */
+  @media (min-width: 320px) and (max-width: 410px) {
+    #dealDays .dealBox .timer ul li {
+      margin: 0px 22px;
+    }
+  }
+
+
+  /* deal ends */
+  /* special offer  */
+  @media (min-width: 320px) and (max-width: 991px) {
+    #specialBanner .specialCnt {
+      padding-bottom: 100px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 991px) {
+    #specialBanner .specialCnt .video {
+      position: relative;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      width: 100%;
+    }
+  }
+
+  /* special offer ends */
+
+  /* footer */
+
+  @media (992px <= width <= 1199px) {
+    #footer .delivery ul {
+      padding: 28px 38px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 991px) {
+    #footer .footerInfo .opening ul li {
+      display: block;
+    }
+  }
+  @media (992px <= width <= 1199px) {
+    #footer .footerInfo .opening ul li {
+      display: block;
+    }
+  }
+
+  /* footer ends */
+  
+  /* about starts */
+  
+  /* About aethor */
+
+  @media (min-width: 320px) and (max-width: 991px) {
+    #AboutAetorShop .aboutShop .aboutAetorCnt {
+      transform: translateX(0);
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 991px) {
+    #AboutAetorShop .aboutShop .aboutAetorText {
+      transform: translateX(0);
+    }
+  }
+  /* about aethor ends */
+
+  /* about counter */
+  @media (min-width: 320px) and (max-width: 767px) {
+    #aboutCounter .counterCnt ul li .counterIcon {
+      width: 90px;
+      height: 90px;
+    }
+  }
+
+  /* about counter ends */
+
+  /* about our story */
+
+  @media (min-width: 320px) and (max-width: 991px) {
+    #ourStory .storyCnt {
+      padding-bottom: 100px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 991px) {
+    #ourStory .storyCnt .video {
+      position: relative;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      width: 100%;
+    }
+  }
+
+  /* about our story ends */
+
+  /* about delivery */
+  @media (992px <= width <= 1199px) {
+    #aboutDelivery .DeliveryCnt .delivery ul {
+      padding: 28px 38px;
+    }
+  }
+
+  /* about delivet ends */
+
+  /* leader team */
+  @media (320px <= width <= 575px) {
+    #leaderShip .leaderArrow {
+      display: none;
+    }
+  }
+  @media (576px <= width <= 767px) {
+    #leaderShip .leaderArrow {
+      display: none;
+    }
+  }
+
+  /* leader team ends */
+  
+
+
+  /* about ends */
+
+  /* shop grid starts */
+
+  /* shop slider */
+  @media (320px <= width <= 575px) {
+    #shopGrid .shopGridBox #gridSlider .shopSliderBox .bestCnt .arriveIcon {
+      display: none;
+    }
+  }
+  @media (576px <= width <= 767px) {
+    #shopGrid .shopGridBox #gridSlider .shopSliderBox .bestCnt .arriveIcon {
+      left: 465px;
+    }
+  }
+  @media (768px <= width <= 991px) {
+    #shopGrid .shopGridBox #gridSlider .shopSliderBox .bestCnt .arriveIcon {
+      left: 290px;
+    }
+  }
+  @media (992px <= width <= 1199px) {
+    #shopGrid .shopGridBox #gridSlider .shopSliderBox .bestCnt .arriveIcon {
+      left: 180px;
+    }
+  }
+  @media (1200px <= width <= 1399px) {
+    #shopGrid .shopGridBox #gridSlider .shopSliderBox .bestCnt .arriveIcon {
+      left: 220px;
+    }
+  }
+
+  /* shop slider ends */
+
+  /* shop grid ends */
+
+  /* shop details start */
+
+/* leather jacket starts */
+
+@media (320px <= width <= 575px) {
+  #leatherJacket .jacketSlider .jacketArrow {
+    display: none;
+  }
+}
+@media (576px <= width <= 767px) {
+  #leatherJacket .jacketSlider .jacketArrow {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+  #leatherJacket .jacketInfo .info-form .quantity-arrow .quantity-down {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+  #leatherJacket .jacketInfo .info-form .quantity-arrow .quantity-up {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1199px) {
+  #leatherJacket .jacketInfo .info-form .quantity-arrow .output {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  #leatherJacket .jacketInfo .info-form .product-bttn ul .cart-box a {
+    padding: 15px 12px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1100px) {
+  #leatherJacket .jacketInfo .info-form .product-bttn ul .cart-Cnt a {
+    padding: 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1100px) {
+  #leatherJacket .jacketInfo .f-social span a {
+    padding: 2px;
+  }
+}
+
+/* leather jacket ends */
+
+/* related products */
+@media (320px <= width <= 575px) {
+  #releted-product .beautyArrow {
+    display: none;
+  }
+}
+@media (576px <= width <= 767px) {
+  #releted-product .beautyArrow {
+    display: none;
+  }
+}
+/* related product ends */
+
+  /* shop details ends */

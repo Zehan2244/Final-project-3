@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aytor</title>
+    <!-- Link starts -->
+     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="./assets/css/slick.css">
+     <link rel="stylesheet" href="./assets/css/venobox.min.css">
+     <link rel="stylesheet" href="./assets/css/all.min.css">
+     <link rel="stylesheet" href="./assets/css/style.css">
+     <link rel="stylesheet" href="./assets/css/responsive.css">
+     <!--Link ends -->
+</head>
+<body>
+    <!-- Navbar starts -->
+    <!-- Navbar lg -->
+    <nav class="navbar navbar-expand-lg d-none d-lg-block">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/Logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNav">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Features <span class="dropdownArrow">
+                            <i class="fa-solid fa-angle-up"></i></span></a>
+                            <div class="dropp">
+                                <a href="#">Ordering Widgets</a>
+                                <a href="#">Items Customizastion</a>
+                                <a href="#"> Item Notes</a>
+                            </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="single-product.html">Shop Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Contacts</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="links">
+                <ul class="d-flex">
+                    <li>
+                        <a href="#"><img src="./assets/images/search.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/images/user.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/images/heart.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#" class="position-relative">
+                            <img src="./assets/images/cart.svg" alt="">
+                            <span class="cartCount">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     <!-- Navbar lg ends -->
+      <!-- Nav sma starts -->
+      <nav class="d-lg-none navbarSm">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-2 text-center">
+                    <a data-bs-toggle="offcanvas" href="#sidemenu" role="button" href="#" class="menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+                <div class="col-8 text-center px-0 logo">
+                    <a href="#"><img src="./assets/images/Logo.png" alt=""></a>
+                </div>
+                <div class="col-2 px-0">
+                    <div class="links">
+                        <ul class="d-flex align-items-center">
+                            <li>
+                                <a href="#" class="m-0"><img src="./assets/images/heart.svg" alt=""></a>
+                                <a href="#" class="position-relative m-0 me-1">
+                                    <img src="./assets/images/cart.svg" alt="">
+                                    <span class="cartCount">0</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+       <!-- Nav sm ends -->
+        <!-- Navbar sidemenu -->
+         
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="sidemenu" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <nav class="serial">
+                    <ul class="order">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>                    
+                        <li><a href="single-product.html">Shop Details </a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+         <!-- Navbar sidemenu ends -->
+          
+          
+                <!--Navbar ends  -->
+
+                <!-- main starts -->
+
+                 <!-- SHOP BANNER START -->
+
+     <section id="commonBanner">
+        <div class="container">
+          <div class="banner">
+            <h2>Shop - Grid</h2>
+            <h3><a href="./index.html">Home</a> / <a href="./shop.html">Shop</a></h3>
+          </div>
+        </div>
+       </section>
+  
+       <!-- SHOP BANNER END -->
+
+       <!-- shop slider -->
+       <section id="shopGrid">
+        <div class="container">
+          <div class="shopGridBox">
+            <div class="gridSetting row">
+              <div class="gridOption col-lg-6">
+                <span><img src="./assets/images/line.svg" alt=""></span>
+                <span><img src="./assets/images/dots.svg">  </span>
+              </div>
+              <div class="gridDropdown mt-2 mx-2 col-lg-6">
+                <div class="d-flex justify-content-between w-100">
+                  <button class="btn  btn-sm" type="button">
+                   Default sorting
+                  </button>
+                  <button type="button" class="btn btn-sm droparrow" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class=""><i class="fa-solid fa-angle-down"></i></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">
+                        <span><i class="fa-solid fa-angle-right"></i></span>Men’s Shopping
+                      </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                          <span><i class="fa-solid fa-angle-right"></i></span>Women’s Shopping
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span><i class="fa-solid fa-angle-right"></i></span>Kids’ Shopping
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span><i class="fa-solid fa-angle-right"></i></span>Discounts
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span><i class="fa-solid fa-angle-right"></i></span>New Arrivels
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            <div id="gridSlider">
+                <div  class="shopGridCnt">
+                <div class="row">
+                    <div class=" shopSliderBox col-lg-3 col-md-6 col-sm-12">
+                      <div class="bestCnt">
+                        <div class="arrivImg"><img src="./assets/images/hoodie 123.jpg" alt=""></div>
+                        <div class="sale">
+                          <h4>New</h4>
+                        </div>
+                        <div class="arriveIcon">
+                          <ul>
+                            <li style="--num:0">
+                              <a href="#" data-bs-custom-class="arrivTooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                  </button>
+                              </a>
+                            </li>
+                            <li style="--num:1">
+                              <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                <button>
+                                  <i class="fa-solid fa-heart"></i>
+        
+                                </button>
+                              </a>
+                            </li>
+                            <li style="--num:2">
+                              <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                <button>
+                                  <i class="fa-solid fa-eye"></i>
+                                </button>
+                              </a>
+                            </li>
+                            <li style="--num:3">
+                              <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                <button>
+                                  <i class="fa-solid fa-signal"></i>
+                                </button>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+        
+                      <div class="bestText">
+                        <h4>Spaghetti Hoodie</h4>
+                        <h5>$250.65</h5>
+                          <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(5)</span>
+                          </span>
+        
+                      </div>
+        
+                    </div>
+
+                    <div class=" shopSliderBox col-lg-3 d-lg-block 	d-none d-md-block col-md-6 mb-md-4">
+    
+                        <div class="bestCnt">
+                          <div class="arrivImg"><img src="./assets/images/neckcotton.jpg" alt=""></div>
+                          <div class="sale">
+                            <h4>New</h4>
+                          </div>
+                          <div class="arriveIcon">
+                            <ul>
+                              <li style="--num:0">
+                                <a href="#" data-bs-custom-class="arrivTooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                    <button>
+                                      <i class="fa-solid fa-cart-plus"></i>
+                                    </button>
+                                </a>
+                              </li>
+                              <li style="--num:1">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-heart"></i>
+          
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:2">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-eye"></i>
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:3">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-signal"></i>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                        <div class="bestText">
+                          <h4>Crew Neck Cotton</h4>
+                          <h5>$150.65</h5>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              <span>(5)</span>
+                            </span>
+          
+                        </div>
+          
+                      </div>
+                      <div class=" shopSliderBox col-lg-3 d-lg-block 	d-none d-md-block col-md-6 mb-md-4">
+          
+                        <div class="bestCnt">
+                          <div class="arrivImg"><img src="./assets/images/t shirt.jpg" alt=""></div>
+                          <div class="sale">
+                            <h4>New</h4>
+                          </div>
+                          <div class="arriveIcon">
+                            <ul>
+                              <li style="--num:0">
+                                <a href="#" data-bs-custom-class="arrivTooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                    <button>
+                                      <i class="fa-solid fa-cart-plus"></i>
+                                    </button>
+                                </a>
+                              </li>
+                              <li style="--num:1">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-heart"></i>
+          
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:2">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-eye"></i>
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:3">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-signal"></i>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                        <div class="bestText">
+                          <h4>Spaghetti Strap</h4>
+                          <h5>$265.65</h5>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              <span>(5)</span>
+                            </span>
+          
+                        </div>
+          
+                      </div>
+                      <div class=" shopSliderBox col-lg-3 d-lg-block 	d-none d-md-block col-md-6 mb-md-4">
+          
+                        <div class="bestCnt">
+                          <div class="arrivImg"><img src="./assets/images/pink neck frog.jpg" alt=""></div>
+                          <div class="sale">
+                            <!-- <h4>...</h4> -->
+                          </div>
+                          <div class="arriveIcon">
+                            <ul>
+                              <li style="--num:0">
+                                <a href="#" data-bs-custom-class="arrivTooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                    <button>
+                                      <i class="fa-solid fa-cart-plus"></i>
+                                    </button>
+                                </a>
+                              </li>
+                              <li style="--num:1">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-heart"></i>
+          
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:2">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-eye"></i>
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:3">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-signal"></i>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                        <div class="bestText">
+                          <h4>Pink Neck Frog</h4>
+                          <h5>$180.85</h5>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>4</span>                   
+                            </span>
+          
+                        </div>
+          
+                      </div>
+                      <div class=" shopSliderBox col-lg-3 d-lg-block 	d-none d-md-block col-md-6 mb-md-4">
+          
+                        <div class="bestCnt">
+                          <div class="arrivImg"><img src="./assets/images/blouse sleve.jpg" alt=""></div>
+                          <!-- <div class="sale">
+                            <h4>...</h4>
+                          </div> -->
+                          <div class="arriveIcon">
+                            <ul>
+                              <li style="--num:0">
+                                <a href="#" data-bs-custom-class="arrivTooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                    <button>
+                                      <i class="fa-solid fa-cart-plus"></i>
+                                    </button>
+                                </a>
+                              </li>
+                              <li style="--num:1">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-heart"></i>
+          
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:2">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-eye"></i>
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:3">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-signal"></i>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                        <div class="bestText">
+                          <h4>T-shirt Blouse Sleeve</h4>
+                          <h5>$125.55</h5>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              <span>(4)</span>
+                            </span>
+          
+                        </div>
+          
+                      </div>
+                      <div class=" shopSliderBox col-lg-3 d-lg-block 	d-none d-md-block col-md-6 mb-md-4">
+          
+                        <div class="bestCnt">
+                          <div class="arrivImg"><img src="./assets/images/crew neck.jpg" alt=""></div>
+                          <div class="sale">
+                            <h4>New</h4>
+                          </div>
+                          <div class="arriveIcon">
+                            <ul>
+                              <li style="--num:0">
+                                <a href="#" data-bs-custom-class="arrivTooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                    <button>
+                                      <i class="fa-solid fa-cart-plus"></i>
+                                    </button>
+                                </a>
+                              </li>
+                              <li style="--num:1">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-heart"></i>
+          
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:2">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-eye"></i>
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:3">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-signal"></i>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                        <div class="bestText">
+                          <h4>Crew Neck T-shirt</h4>
+                          <h5>$170.25</h5>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              <span>(4)</span>
+                            </span>
+          
+                        </div>
+          
+                      </div>
+                      <div class=" shopSliderBox col-lg-3 d-lg-block 	d-none d-md-block col-md-6 mb-md-4">
+          
+                        <div class="bestCnt">
+                          <div class="arrivImg"><img src="./assets/images/hoodie 123.jpg" alt=""></div>
+                          <!-- <div class="sale">
+                            <h4>...</h4>
+                          </div> -->
+                          <div class="arriveIcon">
+                            <ul>
+                              <li style="--num:0">
+                                <a href="#" data-bs-custom-class="arrivTooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                    <button>
+                                      <i class="fa-solid fa-cart-plus"></i>
+                                    </button>
+                                </a>
+                              </li>
+                              <li style="--num:1">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-heart"></i>
+          
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:2">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-eye"></i>
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:3">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-signal"></i>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                        <div class="bestText">
+                          <h4>Blouse Jacket</h4>
+                          <h5>$140.65</h5>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              <span>(5)</span>
+                            </span>
+          
+                        </div>
+          
+                      </div>
+                      <div class=" shopSliderBox col-lg-3 d-lg-block 	d-none d-md-block col-md-6 mb-md-4">
+          
+                        <div class="bestCnt">
+                          <div class="arrivImg"><img src="./assets/images/hoodie 22.jpg" alt=""></div>
+                          <!-- <div class="sale">
+                            <h4>...</h4>
+                          </div> -->
+                          <div class="arriveIcon">
+                            <ul>
+                              <li style="--num:0">
+                                <a href="#" data-bs-custom-class="arrivTooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                    <button>
+                                      <i class="fa-solid fa-cart-plus"></i>
+                                    </button>
+                                </a>
+                              </li>
+                              <li style="--num:1">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-heart"></i>
+          
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:2">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-eye"></i>
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:3">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-signal"></i>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                        <div class="bestText">
+                          <h4>Hoodie Sweater</h4>
+                          <h5>$220.65</h5>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              <span>(5)</span>
+                            </span>
+          
+                        </div>
+          
+                      </div>
+                      <div class=" shopSliderBox col-lg-3 d-lg-block 	d-none d-md-block col-md-6 mb-md-4">
+          
+                        <div class="bestCnt">
+                          <div class="arrivImg"><img src="./assets/images/a coat hoodie.jpg" alt=""></div>
+                          <div class="sale">
+                            <h4>New</h4>
+                          </div>
+                          <div class="arriveIcon">
+                            <ul>
+                              <li style="--num:0">
+                                <a href="#" data-bs-custom-class="arrivTooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                    <button>
+                                      <i class="fa-solid fa-cart-plus"></i>
+                                    </button>
+                                </a>
+                              </li>
+                              <li style="--num:1">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-heart"></i>
+          
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:2">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-eye"></i>
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:3">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-signal"></i>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                        <div class="bestText">
+                          <h4>Hoodie Coat</h4>
+                          <h5>$160.65</h5>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              <span>(5)</span>
+                            </span>
+          
+                        </div>
+          
+                      </div>
+                      <div class=" shopSliderBox col-lg-3 d-lg-block 	d-none d-md-block col-md-6 mb-md-4">
+          
+                        <div class="bestCnt">
+                          <div class="arrivImg"><img src="./assets/images/a fight jacket.jpg" alt=""></div>
+                          <!-- <div class="sale">
+                            <h4>...</h4>
+                          </div> -->
+                          <div class="arriveIcon">
+                            <ul>
+                              <li style="--num:0">
+                                <a href="#" data-bs-custom-class="arrivTooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                    <button>
+                                      <i class="fa-solid fa-cart-plus"></i>
+                                    </button>
+                                </a>
+                              </li>
+                              <li style="--num:1">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-heart"></i>
+          
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:2">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-eye"></i>
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:3">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-signal"></i>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                        <div class="bestText">
+                          <h4>Flight jacket</h4>
+                          <h5>$190.65</h5>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              <span>(5)</span>
+                            </span>
+          
+                        </div>
+          
+                      </div>
+                      <div class=" shopSliderBox col-lg-3 d-lg-block 	d-none d-md-block col-md-6 mb-md-4">
+          
+                        <div class="bestCnt">
+                          <div class="arrivImg"><img src="./assets/images/hoodie 123.jpg" alt=""></div>
+                          <!-- <div class="sale">
+                            <h4>...</h4>
+                          </div> -->
+                          <div class="arriveIcon">
+                            <ul>
+                              <li style="--num:0">
+                                <a href="#" data-bs-custom-class="arrivTooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                    <button>
+                                      <i class="fa-solid fa-cart-plus"></i>
+                                    </button>
+                                </a>
+                              </li>
+                              <li style="--num:1">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-heart"></i>
+          
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:2">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-eye"></i>
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:3">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-signal"></i>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                        <div class="bestText">
+                          <h4>Shoulder Dress</h4>
+                          <h5>$156.65</h5>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              <span>(5)</span>
+                            </span>
+          
+                        </div>
+          
+                      </div>
+                      <div class=" shopSliderBox col-lg-3 d-lg-block 	d-none d-md-block col-md-6 mb-md-4">
+          
+                        <div class="bestCnt">
+                          <div class="arrivImg"><img src="./assets/images/a pajama.jpg" alt=""></div>
+                          <div class="sale">
+                            <h4>New</h4>
+                          </div>
+                          <div class="arriveIcon">
+                            <ul>
+                              <li style="--num:0">
+                                <a href="#" data-bs-custom-class="arrivTooltip" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                    <button>
+                                      <i class="fa-solid fa-cart-plus"></i>
+                                    </button>
+                                </a>
+                              </li>
+                              <li style="--num:1">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-heart"></i>
+          
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:2">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-eye"></i>
+                                  </button>
+                                </a>
+                              </li>
+                              <li style="--num:3">
+                                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart">
+                                  <button>
+                                    <i class="fa-solid fa-signal"></i>
+                                  </button>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                        <div class="bestText">
+                          <h4>Pajamas Nightwear</h4>
+                          <h5>$135.55</h5>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              <span>(4)</span>
+                            </span>
+          
+                        </div>
+          
+                      </div>
+                  </div>
+                  </div>  
+      
+                  
+              </div>
+                <!-- pagination start -->
+       <div class="paginationbox">
+        <nav aria-label="Page navigation example" class="paginationCnt mx-auto">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link arrowBtn border-0" href="#"><span><i class="fa-solid fa-arrow-left-long"></i></span> &nbsp;Pre</a></li>
+            <li class="page-item"><a class="page-link arrowNumber" href="#">1</a></li>
+            <li class="page-item"><a class="page-link arrowNumber" href="#">2</a></li>
+            <li class="page-item"><a class="page-link arrowNumber" href="#">3</a></li>
+            <li class="page-item"><a class="page-link arrowBtn border-0" href="#">Next &nbsp;<span><i class="fa-solid fa-arrow-right-long"></i></span></a></li>
+          </ul>
+        </nav>
+       </div>
+       <!-- pagination end -->
+        </div>
+      </div>
+     </section>
+
+
+        <!-- shop slider ends -->
+       
+
+
+                 <!-- main ends -->
+       
+      
+         <!-- Footer start -->
+
+         <section id="footer">
+            <div class="container">
+              <div class="delivery ">
+                 <ul class="row">
+                  <li class="col-lg-3 col-3">
+                    <a href="">
+                      <div class="shiping row ">
+          
+                        <div class="iconBox col-lg-5 col-3">
+                         <i class="fa-solid fa-truck"></i>
+                        </div>
+                        <div class="shipingText col-lg-7 d-lg-block 	d-none d-md-none">
+                          <h6>FREE SHIPING</h6>
+                          <p>all orders over <span>$150</span></p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-lg-3 col-3">
+                    <a href="">
+                      <div class="shiping row ">
+          
+                        <div class="iconBox col-lg-5 col-3">
+                          <i class="fa-solid fa-money-check-dollar"></i>
+                        </div>
+                        <div class="shipingText col-lg-7 d-lg-block 	d-none d-md-none">
+                          <h6>Quick Support</h6>
+                          <p>Secure Payment <span>$150</span></p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-lg-3 col-3">
+                    <a href="">
+                      <div class="shiping row ">
+          
+                        <div class="iconBox col-lg-5 col-3">
+                         <i class="fa-solid fa-right-left"></i>
+                        </div>
+                        <div class="shipingText col-lg-7 d-lg-block 	d-none d-md-none">
+                          <h6>Free Retuens</h6>
+                          <p> Return Money Within 30 days <span>$150</span></p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-lg-3 col-3">
+                    <a href="">
+                      <div class="shiping row ">
+          
+                        <div class="iconBox col-lg-5 col-3">
+                          <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <div class="shipingText col-lg-7 d-lg-block 	d-none d-md-none">
+                          <h6>24/7 Support</h6>
+                          <p> Quick Support System  30 days <span>$150</span></p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  
+                 </ul>
+              </div>
+              <div class="footerCnt row">
+                <div class="social col-lg-3 col-12 mb-4">
+                    <ul class="row justify-content-center">
+                      <li class="col-lg-3 ">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                      </li>
+                      <li class="col-lg-3 ">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                      </li>
+                      <li class="col-lg-3 ">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                      </li>
+                      <li class="col-lg-3 ">
+                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></i></a>
+                      </li>
+                    </ul>
+                </div>
+          
+                <div class="footerlogo col-lg-6 col-12 mb-4">
+                  <img src="./assets/images/footer logo.png" alt="">
+                </div>
+          
+                <div class="payment col-lg-3 col-12 mb-4">
+                  <img src="./assets/images/footer payment 1.png" alt="">
+                </div>
+          
+              </div>
+          
+              <hr class="border-2" style="color: #E0E0E0;">
+          
+              <div class="footerInfo row">
+          
+                <div class="myaccount col-xl-2 col-md-12 mb-4">
+                  
+                  <div class="title">
+                    My Account
+                  </div>
+          
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <span><i class="fa-solid fa-angle-right"></i></span> My Account
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span><i class="fa-solid fa-angle-right"></i></span> View Cart
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span><i class="fa-solid fa-angle-right"></i></span> Wishlist
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span><i class="fa-solid fa-angle-right"></i></span> Compare
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span><i class="fa-solid fa-angle-right"></i></span> New Products
+                      </a>
+                    </li>
+                  </ul>
+          
+                </div>
+          
+                <div class="support col-xl-2 col-md-12 mb-4">
+                  
+                  <div class="title">
+                    Support
+                  </div>
+          
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <span><i class="fa-solid fa-angle-right"></i></span> Help
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span><i class="fa-solid fa-angle-right"></i></span> Contact Us
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span><i class="fa-solid fa-angle-right"></i></span> Feedback
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span><i class="fa-solid fa-angle-right"></i></span> Customer Service
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span><i class="fa-solid fa-angle-right"></i></span> Store Locations
+                      </a>
+                    </li>
+                  </ul>
+          
+                </div>
+          
+                <div class="opening col-xl-2 col-md-12 mb-4">
+                  
+                  <div class="title">
+                    Opening Time
+                  </div>
+          
+                  <ul>
+                    <li>
+                      Mon - Tue:    <span>8AM - 10PM</span>
+                    </li>
+                    <li>
+                      Wed :    <span>8AM - 7PM</span>
+                    </li>
+                    <li>
+                      Fri :    <span>7AM - 12PM</span>
+                    </li>
+                    <li>
+                      Sat :    <span>9AM - 8PM</span>
+                    </li>
+                    <li>
+                      Sun :    <span>9AM - 8PM</span>
+                    </li>
+                    
+                  </ul>
+          
+                </div>
+                <div class="footerContact col-xl-2 col-md-12 mb-4">
+                    
+                    <div class="title">
+                      Contact Us
+                    </div>
+            
+                    <ul>
+                      <li>
+                        <span><i class="fa-solid fa-location-dot"></i></span> &nbsp; <a href="#">
+                          United States
+                        </a>
+                      </li>
+                      <li>
+                        <span><i class="fa-solid fa-phone"></i></span> &nbsp; <a href="tel:+18008660286">
+                          +18008660286
+                        </a>
+                      </li>
+                      <li>
+                        <span><i class="fa-solid fa-envelope"></i></span> &nbsp; <a href="mailto:aetor.info@gmail.com">
+                          aetor.info@gmail.com
+                        </a>
+                      </li>
+                      <li>
+                        <span><i class="fa-solid fa-globe"></i></span> &nbsp; <a href="#">
+                          info@aetor.com
+                        </a>
+                      </li>
+                      
+                      
+                    </ul>
+            
+                  </div>
+            
+                <div class="newsletter col-xl-2 col-md-12 mb-4">
+                    
+                    <div class="title">
+                      News Letter
+                    </div>
+            
+                    <ul>
+                      <li>
+                        <p>
+                          Authoritatively morph 24/7 potentialities with error-free partnerships.
+                        </p>
+                      </li>
+                     <li>
+                      <form class="row ms-2">
+                        <input type="text" placeholder="Enter your email..." class="border-0 col">
+                        <button class="col">Subscribe</button>
+                      </form>
+                     </li>
+                      
+                      
+                    </ul>
+            
+                  </div>
+            
+              </div>
+          
+            </div>
+          
+            </section>
+            <!-- COPY RIGHT START  -->
+            <div class="copyright">
+          
+            <h3> © 2033 All Rights Reserved <span>Aytor</span> By <span>Zehan Islam </span>.</h3>
+          
+            </div>
+            <!-- COPY RIGHT END  -->
+            <!-- FOOTER END -->
+ 
+             <!-- Navbar bottom -->
+           <div class="navbarBottom d-lg-none">
+             <div class="container">
+                 <div class="row">
+                     <ul class="d-flex justify-content-between">
+                         <div class="d-flex">
+                             <li>
+                                 <a href="#"><i class="fa-solid fa-house"></i></a>
+                             </li>
+                             <li>
+                                 <a href="#"><i class="fa-solid fa-message"></i></a>
+                             </li>
+                         </div>
+                         <div class="d-flex">
+                             <li>
+                                 <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                             </li>
+                             <li>
+                                 <a href="#"><i class="fa-solid fa-user"></i></a>
+                             </li>
+                         </div>
+                     </ul>
+                     <a href="#" class="searchIcon"><i class="fa-solid fa-magnifying-glass"></i></a>
+                 </div>
+             </div>
+         </div>
+            <!-- Navbar bottom ends -->
+ 
+ 
+ 
+      
+     <!-- script starts -->
+ <script src="./assets/js/jquery-3.7.1.min.js"></script>
+ <script src="./assets/js/jquery.countdown.min.js"></script>
+ <script src="./assets/js/slick.min.js"></script>
+ <script src="./assets/js/venobox.min.js"></script>
+ <script src="./assets/js/bootstrap.bundle.min.js"></script>
+ <script src="./assets/js/app.js"></script>
+     <!-- scripts ends -->
+ </body>
+ </html>          
